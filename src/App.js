@@ -8,6 +8,8 @@ import "./App.css";
 
 class App extends Component {
   
+  axios.get("http://localhost:3333/smurfs").then( res => console.log(res));
+  
   render() {
     return (
       <div className="App">
